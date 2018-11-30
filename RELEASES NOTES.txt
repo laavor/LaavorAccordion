@@ -1,1 +1,1 @@
-Initial Version
+Fixed textColorTitle and borderColorTitle properties that were not working properly.
