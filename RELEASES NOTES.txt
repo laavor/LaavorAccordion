@@ -1,1 +1,1 @@
-Fixed textColorTitle and borderColorTitle properties that were not working properly.
+Fix (started working in Edge browser).
