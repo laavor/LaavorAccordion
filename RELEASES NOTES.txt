@@ -1,1 +1,1 @@
-Create new functionality can create multiple Accordion on one page.
+Now can create multiple Accordion on one page.
