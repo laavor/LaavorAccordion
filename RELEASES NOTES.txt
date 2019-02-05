@@ -1,1 +1,1 @@
-Fix (started working in Edge browser).
+Fix new functionality can create multiple Accordion on one page.
