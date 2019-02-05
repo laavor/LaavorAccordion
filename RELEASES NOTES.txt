@@ -1,1 +1,1 @@
-Fix new functionality can create multiple Accordion on one page.
+Create new functionality can create multiple Accordion on one page.
