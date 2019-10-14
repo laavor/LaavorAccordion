@@ -1,57 +1,57 @@
-﻿var lvAc1;var lvAc2;var lvAc3;var lvAc4;function LaavorAccordion(lvAc5,lvAc6){if(lvAc2===undefined||lvAc2===null)
-{lvAc2=[];}
-if(lvAc1===undefined||lvAc1===null)
-{lvAc1=[];}
-if(lvAc3===undefined||lvAc3===null)
-{lvAc3=[];}
-lvAc3.push(lvAc5);if(lvAc4===undefined||lvAc4===null)
-{lvAc4=[];}
-if(lvAc6!==undefined&&lvAc6!==null){lvAc4[lvAc5]=lvAc6;}
-else{lvAc4[lvAc5]=lvAc63();}}
-window.addEventListener('load',function(){var lvAc7=lvAc3.length;for(var lvAc8=0;lvAc8<lvAc7;lvAc8++)
-{lvAc21(lvAc8,lvAc3[lvAc8]);}});function lvAc21(lvAc9,lvAc10){var lvAc11=document.getElementById(lvAc3[lvAc9]);lvAc2[lvAc10]=[];if(lvAc11!==undefined&&lvAc11!==null){var lvAc12=lvAc11.children;var lvAc13=lvAc12.length;lvAc22(lvAc4[lvAc10]);try{for(var lvAc14=0;lvAc14<lvAc13;lvAc14+=2){var lvAc15=lvAc49(lvAc12[lvAc14+1]);var lvAc16={lvAc18:lvAc12[lvAc14],lvAc19:lvAc12[lvAc14+1],lvAc20:lvAc15};lvAc12[lvAc14+1].style.display='none';lvAc2[lvAc10].push(lvAc16);var lvAc17=lvAc23(lvAc2[lvAc10].length-1);lvAc16.lvAc18.setAttribute("lvAc23",lvAc17);lvAc16.lvAc18.onclick=lvAc27;lvAc16.lvAc18.setAttribute("lvAc25",false);lvAc16.lvAc18.setAttribute("lvAc26",lvAc10);lvAc16.lvAc18.style.backgroundColor=lvAc4[lvAc10].backgroundColorTitle;lvAc16.lvAc18.style.border="solid 1px";lvAc16.lvAc18.style.borderColor=lvAc4[lvAc10].borderColorTitle;lvAc16.lvAc18.style.color=lvAc4[lvAc10].textColorTitle;lvAc16.lvAc18.style.fontSize=lvAc4[lvAc10].fontSizeTitle.replace("em","")+'em';lvAc16.lvAc19.style.border="solid 1px";lvAc16.lvAc19.style.borderColor=lvAc4[lvAc10].borderColorContent;lvAc16.lvAc18.style.cursor="pointer";lvAc16.lvAc18.style.marginBottom="0px";lvAc16.lvAc19.style.marginBottom="0px";lvAc16.lvAc18.style.marginTop="0px";lvAc16.lvAc19.style.marginTop="0x";lvAc16.lvAc18.onmouseover=lvAc28;lvAc16.lvAc18.onmouseleave=lvAc29;}
-if(lvAc4[lvAc10].preSelectItem.toString()==="true"){lvAc2[lvAc10][0].lvAc18.setAttribute("lvAc25",true);lvAc24(lvAc2[lvAc10][0]);lvAc1[lvAc10]=lvAc2[lvAc10][0];}
-else{lvAc1[lvAc10]=null;}}
+﻿var lvAC01;var lvAC02;var lvAC03;var lvAC04;String.prototype.lvAC05=function(){"use strict";var lvAC06=parseInt(this);return lvAC06;};function LaavorAccordion(lvAC07,lvAC08){if(lvAC02===undefined||lvAC02===null)
+{lvAC02=[];}
+if(lvAC01===undefined||lvAC01===null)
+{lvAC01=[];}
+if(lvAC03===undefined||lvAC03===null)
+{lvAC03=[];}
+lvAC03.push(lvAC07);if(lvAC04===undefined||lvAC04===null)
+{lvAC04=[];}
+if(lvAC08!==undefined&&lvAC08!==null){lvAC04[lvAC07]=lvAC08;}
+else{lvAC04[lvAC07]=lvAC11();}}
+window.addEventListener('load',function(){var lvAC09=lvAC03.length;for(var lvAC10=0;lvAC10<lvAC09;lvAC10++)
+{lvAC12(lvAC10,lvAC03[lvAC10]);}});function lvAC12(lvAC13,lvAC14){var lvAC15=document.getElementById(lvAC03[lvAC13]);lvAC02[lvAC14]=[];if(lvAC15!==undefined&&lvAC15!==null){var lvAC16=lvAC15.children;var lvAC17=lvAC16.length;lvAC18(lvAC04[lvAC14]);try{for(var lvAC19=0;lvAC19<lvAC17;lvAC19+=2){var lvAC21=lvAC20(lvAC16[lvAC19+1]);var lvAC22={lvAC25:lvAC16[lvAC19],lvAC26:lvAC16[lvAC19+1],lvAC23:lvAC21};lvAC16[lvAC19+1].style.display='none';lvAC02[lvAC14].push(lvAC22);var lvAC24=lvAC39(lvAC02[lvAC14].length-1);lvAC22.lvAC25.setAttribute("lvAC30",lvAC24);lvAC22.lvAC25.onclick=lvAC54;lvAC22.lvAC25.setAttribute("lvAC31",false);lvAC22.lvAC25.setAttribute("lvAC33",lvAC14);lvAC22.lvAC25.style.backgroundColor=lvAC04[lvAC14].backgroundColorTitle;lvAC22.lvAC25.style.border="solid 1px";lvAC22.lvAC25.style.borderColor=lvAC04[lvAC14].borderColorTitle;lvAC22.lvAC25.style.color=lvAC04[lvAC14].textColorTitle;lvAC22.lvAC25.style.fontSize=lvAC04[lvAC14].fontSizeTitle.replace("em","")+'em';lvAC22.lvAC26.style.border="solid 1px";lvAC22.lvAC26.style.borderColor=lvAC04[lvAC14].borderColorContent;lvAC22.lvAC25.style.cursor="pointer";lvAC22.lvAC25.style.marginBottom="0px";lvAC22.lvAC26.style.marginBottom="0px";lvAC22.lvAC25.style.marginTop="0px";lvAC22.lvAC26.style.marginTop="0x";lvAC22.lvAC25.onmouseover=lvAC27;lvAC22.lvAC25.onmouseleave=lvAC28;}
+if(lvAC04[lvAC14].preSelectItem.toString()==="true"){lvAC02[lvAC14][0].lvAC25.setAttribute("lvAC31",true);lvAC29(lvAC02[lvAC14][0]);lvAC01[lvAC14]=lvAC02[lvAC14][0];}
+else{lvAC01[lvAC14]=null;}}
 catch(e){throw new Error("The Title and Content order can not be interrupted, if necessary contact Laavor support.");}}
 else{throw new Error("Item with idFather informed was not found.");}}
-function lvAc28(){if(this!==undefined&&this!==null){var lvAc30=this.getAttribute("lvAc26");if(lvAc30!==undefined&&lvAc30!==null)
-{this.style.backgroundColor=lvAc4[lvAc30].backgroundColorTitleHover;this.style.borderColor=lvAc4[lvAc30].borderColorTitleHover;this.style.color=lvAc4[lvAc30].textColorTitleHover;}}}
-function lvAc29(){if(this!==undefined&&this!==null){var lvAc31=this.getAttribute("lvAc25");var lvAc32=this.getAttribute("lvAc26");if(lvAc31==="false"){this.style.backgroundColor=lvAc4[lvAc32].backgroundColorTitle;this.style.borderColor=lvAc4[lvAc32].borderColorTitle;this.style.color=lvAc4[lvAc32].textColorTitle;}
-else{this.style.backgroundColor=lvAc4[lvAc32].backgroundColorTitleSelected;this.style.borderColor=lvAc4[lvAc32].borderColorTitleSelected;this.style.color=lvAc4[lvAc32].textColorTitleSelected;}}}
-function lvAc22(lvAc33){var lvAc34=lvAc63();if(lvAc33.viewMode===undefined||lvAc33.viewMode===null){lvAc33.viewMode=lvAc34.viewMode;}
-if(lvAc33.preSelectItem===undefined||lvAc33.preSelectItem===null){lvAc33.preSelectItem=lvAc34.preSelectItem;}
-if(lvAc33.backgroundColorTitle===undefined||lvAc33.backgroundColorTitle===null){lvAc33.backgroundColorTitle=lvAc34.backgroundColorTitle;}
-if(lvAc33.backgroundColorTitleHover===undefined||lvAc33.backgroundColorTitleHover===null){lvAc33.backgroundColorTitleHover=lvAc34.backgroundColorTitleHover;}
-if(lvAc33.borderColorTitle===undefined||lvAc33.borderColorTitle===null){lvAc33.borderColorTitle=lvAc34.borderColorTitle;}
-if(lvAc33.borderColorTitleHover===undefined||lvAc33.borderColorTitleHover===null){lvAc33.borderColorTitleHover=lvAc34.borderColorTitleHover;}
-if(lvAc33.textColorTitle===undefined||lvAc33.textColorTitle===null){lvAc33.textColorTitle=lvAc34.textColorTitle;}
-if(lvAc33.textColorTitleHover===undefined||lvAc33.textColorTitleHover===null){lvAc33.textColorTitleHover=lvAc34.textColorTitleHover;}
-if(lvAc33.borderSizeTitle===undefined||lvAc33.borderSizeTitle===null){lvAc33.borderSizeTitle=lvAc34.borderSizeTitle;}
-if(lvAc33.borderTitleHasShadow===undefined||lvAc33.borderTitleHasShadow===null){lvAc33.borderTitleHasShadow=lvAc34.borderTitleHasShadow;}
-if(lvAc33.borderContentHasShadow===undefined||lvAc33.borderContentHasShadow===null){lvAc33.borderContentHasShadow=lvAc34.borderContentHasShadow;}
-if(lvAc33.fontSizeTitle===undefined||lvAc33.fontSizeTitle===null){lvAc33.fontSizeTitle=lvAc34.fontSizeTitle;}
-if(lvAc33.borderColorContent===undefined||lvAc33.borderColorContent===null){lvAc33.borderColorContent=lvAc34.borderColorContent;}
-if(lvAc33.backgroundColorTitleSelected===undefined||lvAc33.backgroundColorTitleSelected===null){lvAc33.backgroundColorTitleSelected=lvAc34.backgroundColorTitleSelected;}
-if(lvAc33.textColorTitleSelected===undefined||lvAc33.textColorTitleSelected===null){lvAc33.textColorTitleSelected=lvAc34.textColorTitleSelected;}
-if(lvAc33.borderColorTitleSelected===undefined||lvAc33.borderColorTitleSelected===null){lvAc33.borderColorTitleSelected=lvAc34.borderColorTitleSelected;}}
-function lvAc23(lvAc41){"use strict";var lvAc42="";var lvAc43="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";for(var lvAc44=0;lvAc44<15;lvAc44++){lvAc42+=lvAc43.charAt(Math.floor(Math.random()*lvAc43.length));}
-lvAc42+='_'+lvAc41.toString();return lvAc42;}
-function lvAc27(){try{var lvAc35=this.getAttribute("lvAc26");var lvAc36=this.getAttribute("lvAc23");var lvAc37=this.getAttribute("lvAc25");var lvAc38=lvAc36.split('_')[1].toString().lvAc65();var lvAc39=lvAc2[lvAc35][lvAc38];var lvAc40=false;if(lvAc39!==undefined&&lvAc39!==null){if(lvAc4[lvAc35].viewMode!==undefined&&lvAc4[lvAc35].viewMode!==null){if(lvAc37.toString()==='true'){lvAc45(lvAc39);lvAc40=true;}
-else{lvAc24(lvAc39);}
-if(lvAc4[lvAc35].viewMode==='single'){if(lvAc1[lvAc35]!==undefined&&lvAc1[lvAc35]!==null){var lvAc46=this.getAttribute("lvAc23");var lvAc47=lvAc1[lvAc35].lvAc18.getAttribute("lvAc23");if(lvAc46!==lvAc47){lvAc45(lvAc1[lvAc35]);}}}}
-else if(lvAc1[lvAc35]!==undefined&&lvAc1[lvAc35]!==null){lvAc45(lvAc1[lvAc35]);}
-lvAc1[lvAc35]=lvAc39;}
+function lvAC27(){if(this!==undefined&&this!==null){var lvAC34=this.getAttribute("lvAC33");if(lvAC34!==undefined&&lvAC34!==null)
+{this.style.backgroundColor=lvAC04[lvAC34].backgroundColorTitleHover;this.style.borderColor=lvAC04[lvAC34].borderColorTitleHover;this.style.color=lvAC04[lvAC34].textColorTitleHover;}}}
+function lvAC28(){if(this!==undefined&&this!==null){var lvAC36=this.getAttribute("lvAC31");var lvAC35=this.getAttribute("lvAC33");if(lvAC36==="false"){this.style.backgroundColor=lvAC04[lvAC35].backgroundColorTitle;this.style.borderColor=lvAC04[lvAC35].borderColorTitle;this.style.color=lvAC04[lvAC35].textColorTitle;}
+else{this.style.backgroundColor=lvAC04[lvAC35].backgroundColorTitleSelected;this.style.borderColor=lvAC04[lvAC35].borderColorTitleSelected;this.style.color=lvAC04[lvAC35].textColorTitleSelected;}}}
+function lvAC18(lvAC37){var lvAC38=lvAC11();if(lvAC37.viewMode===undefined||lvAC37.viewMode===null){lvAC37.viewMode=lvAC38.viewMode;}
+if(lvAC37.preSelectItem===undefined||lvAC37.preSelectItem===null){lvAC37.preSelectItem=lvAC38.preSelectItem;}
+if(lvAC37.backgroundColorTitle===undefined||lvAC37.backgroundColorTitle===null){lvAC37.backgroundColorTitle=lvAC38.backgroundColorTitle;}
+if(lvAC37.backgroundColorTitleHover===undefined||lvAC37.backgroundColorTitleHover===null){lvAC37.backgroundColorTitleHover=lvAC38.backgroundColorTitleHover;}
+if(lvAC37.borderColorTitle===undefined||lvAC37.borderColorTitle===null){lvAC37.borderColorTitle=lvAC38.borderColorTitle;}
+if(lvAC37.borderColorTitleHover===undefined||lvAC37.borderColorTitleHover===null){lvAC37.borderColorTitleHover=lvAC38.borderColorTitleHover;}
+if(lvAC37.textColorTitle===undefined||lvAC37.textColorTitle===null){lvAC37.textColorTitle=lvAC38.textColorTitle;}
+if(lvAC37.textColorTitleHover===undefined||lvAC37.textColorTitleHover===null){lvAC37.textColorTitleHover=lvAC38.textColorTitleHover;}
+if(lvAC37.borderSizeTitle===undefined||lvAC37.borderSizeTitle===null){lvAC37.borderSizeTitle=lvAC38.borderSizeTitle;}
+if(lvAC37.borderTitleHasShadow===undefined||lvAC37.borderTitleHasShadow===null){lvAC37.borderTitleHasShadow=lvAC38.borderTitleHasShadow;}
+if(lvAC37.borderContentHasShadow===undefined||lvAC37.borderContentHasShadow===null){lvAC37.borderContentHasShadow=lvAC38.borderContentHasShadow;}
+if(lvAC37.fontSizeTitle===undefined||lvAC37.fontSizeTitle===null){lvAC37.fontSizeTitle=lvAC38.fontSizeTitle;}
+if(lvAC37.borderColorContent===undefined||lvAC37.borderColorContent===null){lvAC37.borderColorContent=lvAC38.borderColorContent;}
+if(lvAC37.backgroundColorTitleSelected===undefined||lvAC37.backgroundColorTitleSelected===null){lvAC37.backgroundColorTitleSelected=lvAC38.backgroundColorTitleSelected;}
+if(lvAC37.textColorTitleSelected===undefined||lvAC37.textColorTitleSelected===null){lvAC37.textColorTitleSelected=lvAC38.textColorTitleSelected;}
+if(lvAC37.borderColorTitleSelected===undefined||lvAC37.borderColorTitleSelected===null){lvAC37.borderColorTitleSelected=lvAC38.borderColorTitleSelected;}}
+function lvAC39(lvAC41){"use strict";var lvAC40="";var lvAC42="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";for(var lvAC43=0;lvAC43<15;lvAC43++){lvAC40+=lvAC42.charAt(Math.floor(Math.random()*lvAC42.length));}
+lvAC40+='_'+lvAC41.toString();return lvAC40;}
+function lvAC54(){try{var lvAC44=this.getAttribute("lvAC33");var lvAC45=this.getAttribute("lvAC30");var lvAC46=this.getAttribute("lvAC31");var lvAC47=lvAC45.split('_')[1].toString().lvAC05();var lvAC48=lvAC02[lvAC44][lvAC47];var lvAC49=false;if(lvAC48!==undefined&&lvAC48!==null){if(lvAC04[lvAC44].viewMode!==undefined&&lvAC04[lvAC44].viewMode!==null){if(lvAC46.toString()==='true'){lvAC50(lvAC48);lvAC49=true;}
+else{lvAC29(lvAC48);}
+if(lvAC04[lvAC44].viewMode==='single'){if(lvAC01[lvAC44]!==undefined&&lvAC01[lvAC44]!==null){var lvAC51=this.getAttribute("lvAC30");var lvAC52=lvAC01[lvAC44].lvAC25.getAttribute("lvAC30");if(lvAC51!==lvAC52){lvAC50(lvAC01[lvAC44]);}}}}
+else if(lvAC01[lvAC44]!==undefined&&lvAC01[lvAC44]!==null){lvAC50(lvAC01[lvAC44]);}
+lvAC01[lvAC44]=lvAC48;}
 else{throw new Error("Error in count inside Accordion(Click Item) contact Laavor.com with example.");}}
 catch(e){throw new Error("Error in count inside Accordion(Click Item) contact Laavor.com with example.");}}
-String.prototype.lvAc65=function(){"use strict";var lvAc66=parseInt(this);return lvAc66;};function lvAc49(lvAc48){if(lvAc48.clientHeight!==undefined&&lvAc48.clientHeight!==null){return lvAc48.clientHeight.toString().lvAc65();}
-if(lvAc48.height!==undefined&&lvAc48.style.height!==null){return lvAc48.height.toString().lvAc65();}
-if(lvAc48.offsetHeight!==undefined&&lvAc48.offsetHeight!==null){return lvAc48.offsetHeight.toString().lvAc65()-2;}
+function lvAC20(lvAC53){if(lvAC53.clientHeight!==undefined&&lvAC53.clientHeight!==null){return lvAC53.clientHeight.toString().lvAC05();}
+if(lvAC53.height!==undefined&&lvAC53.style.height!==null){return lvAC53.height.toString().lvAC05();}
+if(lvAC53.offsetHeight!==undefined&&lvAC53.offsetHeight!==null){return lvAC53.offsetHeight.toString().lvAC05()-2;}
 else{throw new Error("Error in count inside Accordion(Height Item) contact Laavor.com with example.");}}
-function lvAc64(lvAc52,lvAc53,lvAc60){setTimeout(function(){lvAc52.style.height=lvAc53.toString().replace("px","")+'px';},lvAc60);}
-function lvAc45(lvAc50){if(lvAc50.lvAc19!==undefined&&lvAc50.lvAc19!==null&&lvAc50.lvAc20!==undefined&&lvAc50.lvAc20!==null){var lvAc51=lvAc50.lvAc20/10;var lvAc56=lvAc50.lvAc18.getAttribute("lvAc26");var lvAc54=0;var lvAc55=50;lvAc50.lvAc19.style.opacity="0";for(var lvAc68=lvAc50.lvAc20;lvAc68>0;lvAc68-=lvAc51){lvAc64(lvAc50.lvAc19,lvAc68,lvAc55);if(lvAc54>11){throw new Error("Error in count inside Accordion(Hide Item) contact Laavor.com with example.");}
-lvAc55+=50;}
-setTimeout(function(){lvAc50.lvAc19.style.height='0px';},lvAc55);lvAc55+=50;setTimeout(function(){lvAc50.lvAc19.style.display='none';},lvAc55);lvAc55+=50;setTimeout(function(){lvAc50.lvAc19.style.height=lvAc50.lvAc20.toString()+'px';lvAc50.lvAc18.style.backgroundColor=lvAc4[lvAc56].backgroundColorTitle;lvAc50.lvAc18.style.color=lvAc4[lvAc56].textColorTitle;lvAc50.lvAc18.style.borderColor=lvAc4[lvAc56].borderColorTitle;},lvAc55);lvAc50.lvAc18.setAttribute("lvAc25",false);}}
-function lvAc24(lvAc58){if(lvAc58.lvAc19!==undefined&&lvAc58.lvAc19!==null&&lvAc58.lvAc20!==undefined&&lvAc58.lvAc20!==null){var lvAc57=lvAc58.lvAc20/10;var lvAc59=lvAc58.lvAc18.getAttribute("lvAc26");var lvAc61=0;var lvAc62=50;lvAc58.lvAc19.style.height=lvAc57.toString()+'px';lvAc58.lvAc19.style.display='block';for(var lvAc67=lvAc57;lvAc67<=lvAc58.lvAc20;lvAc67+=lvAc57){lvAc64(lvAc58.lvAc19,lvAc67,lvAc62);if(lvAc61>11){throw new Error("Error in count inside Accordion(Hide Item) contact Laavor.com with example.");}
-lvAc62+=50;}
-setTimeout(function(){lvAc58.lvAc19.style.height=lvAc58.lvAc20.toString()+'px';lvAc58.lvAc19.style.opacity="1";lvAc58.lvAc18.style.backgroundColor=lvAc4[lvAc59].backgroundColorTitleSelected;lvAc58.lvAc18.style.color=lvAc4[lvAc59].textColorTitleSelected;lvAc58.lvAc18.style.borderColor=lvAc4[lvAc59].borderColorTitleSelected;},lvAc62);lvAc62+=50;lvAc58.lvAc18.setAttribute("lvAc25",true);}}
-function lvAc63(){return{viewMode:'single',preSelectItem:true,backgroundColorTitle:"orange",borderColorTitle:"black",borderSizeTitle:"8px",textColorTitle:"black",fontSizeTitle:"2em",backgroundColorTitleHover:"gray",borderColorTitleHover:"black",textColorTitleHover:"white",borderTitleHasShadow:true,borderColorContent:"black",backgroundColorTitleSelected:"#f0f0f0",textColorTitleSelected:"black",borderColorTitleSelected:"white"};}
+function lvAC55(lvAC56,lvAC57,lvAC58){setTimeout(function(){lvAC56.style.height=lvAC57.toString().replace("px","")+'px';},lvAC58);}
+function lvAC50(lvAC59){if(lvAC59.lvAC26!==undefined&&lvAC59.lvAC26!==null&&lvAC59.lvAC23!==undefined&&lvAC59.lvAC23!==null){var lvAC60=lvAC59.lvAC23/10;var lvAC61=lvAC59.lvAC25.getAttribute("lvAC33");var lvAC62=0;var lvAC63=50;lvAC59.lvAC26.style.opacity="0";for(var lvAC67=lvAC59.lvAC23;lvAC67>0;lvAC67-=lvAC60){lvAC55(lvAC59.lvAC26,lvAC67,lvAC63);if(lvAC62>11){throw new Error("Error in count inside Accordion(Hide Item) contact Laavor.com with example.");}
+lvAC63+=50;}
+setTimeout(function(){lvAC59.lvAC26.style.height='0px';},lvAC63);lvAC63+=50;setTimeout(function(){lvAC59.lvAC26.style.display='none';},lvAC63);lvAC63+=50;setTimeout(function(){lvAC59.lvAC26.style.height=lvAC59.lvAC23.toString()+'px';lvAC59.lvAC25.style.backgroundColor=lvAC04[lvAC61].backgroundColorTitle;lvAC59.lvAC25.style.color=lvAC04[lvAC61].textColorTitle;lvAC59.lvAC25.style.borderColor=lvAC04[lvAC61].borderColorTitle;},lvAC63);lvAC59.lvAC25.setAttribute("lvAC31",false);}}
+function lvAC29(lvAC64){if(lvAC64.lvAC26!==undefined&&lvAC64.lvAC26!==null&&lvAC64.lvAC23!==undefined&&lvAC64.lvAC23!==null){var lvAC65=lvAC64.lvAC23/10;var lvAC68=lvAC64.lvAC25.getAttribute("lvAC33");var lvAC69=0;var lvAC70=50;lvAC64.lvAC26.style.height=lvAC65.toString()+'px';lvAC64.lvAC26.style.display='block';for(var lvAC66=lvAC65;lvAC66<=lvAC64.lvAC23;lvAC66+=lvAC65){lvAC55(lvAC64.lvAC26,lvAC66,lvAC70);if(lvAC69>11){throw new Error("Error in count inside Accordion(Hide Item) contact Laavor.com with example.");}
+lvAC70+=50;}
+setTimeout(function(){lvAC64.lvAC26.style.height=lvAC64.lvAC23.toString()+'px';lvAC64.lvAC26.style.opacity="1";lvAC64.lvAC25.style.backgroundColor=lvAC04[lvAC68].backgroundColorTitleSelected;lvAC64.lvAC25.style.color=lvAC04[lvAC68].textColorTitleSelected;lvAC64.lvAC25.style.borderColor=lvAC04[lvAC68].borderColorTitleSelected;},lvAC70);lvAC70+=50;lvAC64.lvAC25.setAttribute("lvAC31",true);}}
+function lvAC11(){return{viewMode:'single',preSelectItem:true,backgroundColorTitle:"orange",borderColorTitle:"black",borderSizeTitle:"8px",textColorTitle:"black",fontSizeTitle:"2em",backgroundColorTitleHover:"gray",borderColorTitleHover:"black",textColorTitleHover:"white",borderTitleHasShadow:true,borderColorContent:"black",backgroundColorTitleSelected:"#f0f0f0",textColorTitleSelected:"black",borderColorTitleSelected:"white"};}
